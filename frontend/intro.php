@@ -10,13 +10,10 @@
 <script>
 //捲軸樣式開始
 (function($){
-        $(window).on("load",function(){
-            $(".conver").mCustomScrollbar();
-        });
-        $(".conver").mCustomScrollbar({
-          theme:"rounded-dots"
-        });
-    })(jQuery);
+      $(window).load(function(){
+      $(".cover").mCustomScrollbar();
+    });
+})(jQuery);
 //捲軸樣式結尾
 
 //兔子介紹動畫開始
@@ -40,7 +37,7 @@ $(function(){
       <ul>
         <li>
           <img src="../uploads/intro/intro001.jpg" alt="" />
-          <div class="cover">
+          <div class="cover" data-mcs-theme="rounded-dots">
             <div class="intro_tital">兔子的簡介</div>
             <p>
               學名︰Oryctolagus Cuniculus<br />

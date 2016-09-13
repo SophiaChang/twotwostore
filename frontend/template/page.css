@@ -103,7 +103,7 @@
     position: absolute;
     right: -52%;
     top: 0px;
-    overflow: scroll;
+    /*overflow: scroll;*/
   }
    /*--以下為 about 頁面用--*/
   #about_pic{
