@@ -1,0 +1,123 @@
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         全  域                             */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+.intro_container{
+  width: 90%;
+  margin: auto;
+}
+.intro{
+  width: 100%;
+  margin-top:20px;
+}
+.intro>ul{
+  list-style-type:none;
+  margin: 0px;
+  padding: 0px;
+}
+.intro li{
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  overflow: hidden;
+}
+.intro img{
+  width: 100%;
+  vertical-align: bottom;
+}
+.intro p{
+  font-size: 12pt;
+  text-align: justify;
+}
+.cover{
+  color: #797979;
+  display: block;
+  padding: 10px;
+}
+.intro_tital{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+#ps{
+  margin-top: 20px;
+}
+
+/*--以下為 about 頁面用--*/
+#about_pic{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#about_me{
+  text-align: justify;
+}
+
+
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         手機轉置                            */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 481px){
+
+
+
+}
+
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         平  板                             */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 768px){
+  #about_pic{
+    margin-top: 20px;
+  }
+
+
+
+}
+
+
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         PC 版                              */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 981px){
+  .intro_container{
+    max-width: 1170px;
+  }
+  .cover{
+    width: 30%;
+    height: 100%;
+    padding: 1%;
+    background-color: #E64066;
+    opacity: 0.8;
+    color: white;
+    position: absolute;
+    right: -52%;
+    top: 0px;
+    overflow: scroll;
+  }
+   /*--以下為 about 頁面用--*/
+  #about_pic{
+    width: 40%;
+    float: left;
+    margin-top: 30px;
+  }
+  #about_me{
+    width: 55%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+
+
+
+}

@@ -1,0 +1,113 @@
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         全  域                             */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+#memberapply_wrap{
+  width: 100%;
+  height: 300px;
+  background-color: #E64066;  /*粉紅色*/
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-top: 2%;
+}
+.whiteline2{
+  width: 95%;
+  height: 97%;
+  border: 1px dashed white;
+  margin: auto;
+}
+#member_apply{
+  width: 90%;
+  background-color: white;
+  text-align: center;
+  float: left;
+  margin: 5%;
+}
+.form-group2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+  margin-right: 8%;
+}
+#member_apply form{
+  margin-top: 8%;
+}
+#member_apply button, #member_add input{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         手機轉置                            */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 481px){
+
+
+
+}
+
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         平  板                             */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 768px){
+  #memberapply_wrap{
+    width: 100%;
+    height: 330px;
+    background-color: #E64066;  /*粉紅色*/
+    margin-top: 5%;
+    padding-top: 2%;
+  }
+  .whiteline2{
+    width: 95%;
+    height: 95%;
+    border: 1px dashed white;
+    margin: auto;
+  }
+  #member_apply form{
+    margin-top: 3%;
+  }
+  .form-group2{
+    margin-right: 30%;
+  }
+
+
+}
+
+
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         PC 版                              */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 981px){
+  #memberapply_wrap{
+    width: 60%;
+    height: 340px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 1%;
+  }
+  .whiteline2{
+    width: 95%;
+    height: 95%;
+    border: 1px dashed white;
+    margin: auto;
+  }
+  #member_apply{
+    width: 90%;
+    height: 250px;
+    float: left;
+    margin-left: 5%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+
+
+}

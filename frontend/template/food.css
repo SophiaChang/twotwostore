@@ -1,0 +1,110 @@
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         全  域                             */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+#food_nav{
+  width: 105px;
+  height: 20px;
+  margin: auto;
+  margin-top: 10px;
+}
+#food, #herbage{
+  text-decoration: none;
+  background-color: #30272A;  /*深灰色分類按鈕*/
+  font-size: 11pt;
+  color: white;
+  text-align: center;
+  width: 50px;
+  height: 20px;
+  float: left;
+  display: block;
+}
+#food{
+  margin-right: 5px;
+}
+.foodlist_big{
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.foodlist_small{
+  border: 1px solid #d5d5d5;
+  position: relative;
+}
+.foodlist_small a{
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  display: block;
+  overflow: hidden;
+}
+.foodlist_small img{
+  width: 100%;
+  vertical-align: bottom;
+}
+.product_name{
+ float: left;
+ font-size: 11pt;
+ color: #797979;
+ margin-left: 5px;
+ margin-bottom: 20px;
+}
+.price{
+  background-color: #E64066;
+  font-size: 11pt;
+  color: white;
+  float: right;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+
+
+
+
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         手機轉置                            */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 481px){
+
+
+
+}
+
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         平  板                             */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 768px){
+  .foodlist_big{
+    width: 50%;
+    float: left;
+  }
+  .foodlist_small{
+    width: 95%;
+    margin-left: 2.5%;
+  }
+
+}
+
+
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         PC 版                              */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 981px){
+  .foodlist_big{
+    width: 20%;
+  }
+  #food_nav a:hover{
+    background-color: #E64066;  /*滑鼠滑過背景顏色-粉紅色*/
+  }
+
+}

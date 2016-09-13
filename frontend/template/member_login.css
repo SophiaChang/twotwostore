@@ -1,0 +1,147 @@
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         全  域                             */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+#member_wrap{
+  width: 100%;
+  height: 300px;
+  background-color: #E64066;  /*粉紅色*/
+  margin-top: 5%;
+  padding-top: 2%;
+}
+.whiteline{
+  width: 95%;
+  height: 97%;
+  border: 1px dashed white;
+  margin: auto;
+}
+#member_login{
+  width: 90%;
+  background-color: white;
+  text-align: center;
+  float: left;
+  margin: 5%;
+}
+#member_add{
+  width: 90%;
+  background-color: white;
+  text-align: center;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0px;
+  margin-bottom: 5%;
+}
+.form-group{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#member_login form{
+  margin-top: 10%;
+}
+#member_add .news_subject{
+  margin-top: 7%;
+  margin-bottom: 5px;
+}
+#member_add input{
+  margin-top: 15px;
+}
+#member_login button, #member_add input{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.pinkline{
+  width: 90%;
+  height: 1px;
+  background-color: #E64066;  /*粉紅色*/
+  margin: auto;
+}
+
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         手機轉置                            */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 481px){
+
+
+
+}
+
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         平  板                             */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 768px){
+  #member_wrap{
+    width: 100%;
+    height: 350px;
+    background-color: #E64066;  /*粉紅色*/
+    margin-top: 5%;
+    padding-top: 2%;
+  }
+  .whiteline{
+    width: 95%;
+    height: 95%;
+    border: 1px dashed white;
+    margin: auto;
+  }
+  #member_login form{
+    margin-top: 3%;
+  }
+  #member_add .news_subject{
+    margin-top: 3%;
+  }
+
+}
+
+
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         PC 版                              */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 981px){
+  #member_wrap{
+    width: 70%;
+    height: 340px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 1%;
+  }
+  .whiteline{
+    width: 95%;
+    height: 95%;
+    border: 1px dashed white;
+    margin: auto;
+  }
+  #member_login{
+    width: 43.5%;
+    height: 250px;
+    float: left;
+    margin-left: 5%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  #member_add{
+    width: 43.5%;
+    height: 250px;
+    float: left;
+    margin-left: 0%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  #member_login form{
+    margin-top: 20%;
+  }
+  #member_add .news_subject{
+    margin-top: 20%;
+  }
+
+
+
+}

@@ -1,0 +1,115 @@
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         全  域                             */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+.details_pic{
+  width: 100%;
+  background-color: white;
+  border: 1px solid #d5d5d5;
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+.details_pic img{
+  width: 100%;
+}
+.details_content{
+  width: 100%;
+  margin-top: 20px;
+}
+.details_name{
+  float: left;
+  font-size: 11pt;
+  color: #797979;  /*灰色*/
+  margin-top: 10px;
+}
+.details_price{
+  background-color: #E64066;
+  font-size: 11pt;
+  color: white;
+  float: right;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
+}
+.details_color span{
+  float: left;
+}
+.details_color a{
+  width: 20px;
+  height: 20px;
+  background-color: pink;
+  display: block;
+  float: left;
+  margin-right: 5px;
+}
+.details_size{
+  margin-top: 5px;
+}
+.details_description{
+  text-align: justify;
+}
+.return{
+  width: 100px;
+  height: 30px;
+  display: block;
+  margin: auto;
+}
+
+
+
+
+
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         手機轉置                            */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 481px){
+
+
+
+}
+
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         平  板                             */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 768px){
+  .details_pic{
+    width: 45%;
+    float: left;
+  }
+  .details_content{
+    width: 50%;
+    float: right;
+    margin-top: 10px;
+  }
+  .return{
+    margin-left: 0px;
+  }
+
+
+}
+
+
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         PC 版                              */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 981px){
+  .details_pic{
+    width: 30%;
+    margin-left: 50px;
+  }
+  .details_content{
+    margin-right: 50px;
+  }
+
+
+
+}

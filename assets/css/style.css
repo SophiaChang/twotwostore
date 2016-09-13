@@ -1,0 +1,458 @@
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         全  域                             */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+body{
+  margin: 0px;
+  background-image: url(../images/bg001.png);
+  background-size: 150px 150px;
+  background-repeat: repeat;
+  color: #797979;
+  font-family: 'Poppins','微軟正黑體', sans-serif;   /*英文+中文字體*/
+  font-size: 9pt;
+}
+#header{
+  width: 100%;
+  margin: auto;
+}
+#stripe{
+  width: 100%;
+  height: 10px;
+  background-image: url(../images/bg002.png);
+  background-repeat: repeat-x;
+}
+#nav_top01{
+  width: 100%;
+  height: 30px;
+}
+#nav_top01 a{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#nav_top01_left{
+  width: 35px;
+  height: 35px;
+  background-image: url('../images/icon_home.png');
+  background-size: 100%;
+  float: right;
+}
+#nav_top01_center{
+  width: 35px;
+  height: 35px;
+  background-image: url('../images/icon_shop.png');
+  background-size: 100%;
+  float: right;
+  margin-left: 5px;
+}
+#nav_top01_right{
+  width: 35px;
+  height: 35px;
+  background-image: url('../images/icon_search.png');
+  background-size: 100%;
+  float: right;
+}
+#nav_top02{
+  display: none;
+}
+#logo{
+  width: 100%;
+  text-align: center;
+}
+#logo img{
+  width: 80%;
+}
+#menuicon{
+  width: 100%;
+  height: 50px;
+  background-image: url('../images/icon_menu.png');
+  background-size: 50px;
+}
+#nav{
+  display: none;
+}
+.BGsl{
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.DB{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.SrOnly{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border: 0px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+}
+#nav{
+  width: 100%;
+  overflow: hidden;
+}
+#nav>ul{
+  list-style-type:none;
+  margin: 0px;
+  padding: 0px;
+}
+#nav>ul>li{
+  width: 100%;
+  height: 30px;
+  background-color: #30272A;  /*導覽列顏色-深灰色*/
+  display: block;
+  text-align: center;
+  line-height: 30px;
+  border-bottom: 1px solid #fff;
+}
+#nav>ul>li.borderbottom0px{
+  border-bottom: 0px;
+}
+#nav>ul>li>a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 10pt;
+  letter-spacing: 3pt;
+}
+#banner{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#banner>a{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+h4{
+  text-align: center;
+  font-size: 12pt;
+  color: white;      /*首頁標題-白色*/
+  letter-spacing: 3pt;
+  background-image: url(../images/icon_tital.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 250%;
+  margin: 0px;
+  padding: 0px;
+}
+h5{
+  font-size: 10pt;
+  color: #E64066;
+  background-color: #f9e6eb;
+  margin: 0px;
+  padding: 5px;
+}
+#News>ul,#Shares>ul{
+  list-style-type:none;
+  margin: 0px;
+  padding: 0px;
+}
+#News,#Shares{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+#content1,#content2{
+  padding: 5px;
+}
+.clear{
+  clear:both;
+}
+.container1,.container2{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+.bigbox{
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.smallbox{
+  border: 1px solid #d5d5d5;
+  position: relative;
+}
+.smallbox a{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.smallbox img{
+  width: 100%;
+  vertical-align: bottom;
+}
+#subject1,#subject2{
+  text-align: center;
+}
+.newtag{
+  width: 50px;
+  height: 20px;
+  color: white;
+  background-color: #E64066;
+  text-align: center;
+  line-height: 20px;
+  position: absolute;
+  top: -1%;
+  right: 3%;
+}
+#footer{
+  width: 100%;
+  background-image: url("../images/bg004.png");
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+#copyright{
+  width: 100%;
+  font-size: 8pt;
+  text-align: center;
+  letter-spacing: 1pt;
+  margin-top: 10px;
+}
+#twotwo{             /*兔兔動畫*/
+width: 50%;
+float: right;
+position:relative;
+z-index:500;
+}
+#twotwo img{
+  width: 100%;
+}
+#community{                /*社群icon*/
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+#community i{              /*社群icon*/
+  color: #E64066;
+  font-size: 24pt;
+  letter-spacing: 10px;
+  line-height: 50px;
+}
+#community i:hover{     /*社群icon-滑鼠滑過變色-黃色*/
+  color: #30272A;
+}
+#nav_bottom{
+  display: none;
+}
+#facebook{
+  width: 100%;
+  text-align: center;
+}
+#upicon{
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  right: 10px;
+  bottom: 300px;
+  display: none;
+}
+#upicon a{
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: #E64066;    /*icon底色粉紅色*/
+  border-radius: 20%;
+  margin: 3px;
+}
+#upicon img{
+  width: 100%;
+  float: left;
+}
+
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         手機轉置                            */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 481px){
+  body{
+    background-size: 200px 200px;
+  }
+
+
+
+}
+
+
+
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         平  板                             */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 768px){
+  #stripe{
+    height: 15px;
+  }
+  #header{
+    margin-bottom: 30px;
+  }
+  #nav_top01{
+    display: none;
+  }
+  #nav_top02{
+    display: block;
+    width: 100%;
+    text-align: right;
+  }
+  #nav_top02>ul{
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #nav_top02>ul>li{
+    display: inline;
+  }
+  #nav_top02 a{
+    text-decoration: none;
+    color: #797979;
+  }
+  #logo{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  #nav{
+    display: block;
+  }
+  #nav>ul>li{
+    width: 13.42857142857143%;  /*導覽列按鈕*/
+    border: none;
+    margin-left: 1%;
+    float: left;
+  }
+  #nav>ul>li.mleft0{    /*導覽列左邊界0px*/
+    margin-left: 0px;
+  }
+  #menuicon{
+    display: none;
+  }
+  #nav>ul>li.hide{      /*隱藏12個標籤*/
+    display: none;
+  }
+  #banner{
+    width: 90%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .container1{
+    width: 90%;
+  }
+  .bigbox{
+    width: 50%;
+    float: left;
+  }
+  .smallbox{
+    width: 95%;
+    margin-left: 2.5%;
+  }
+  h4{
+    background-size: 120%;
+  }
+  #nav_bottom{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  #nav_bottom>ul{
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+  }
+  #nav_bottom>ul>li{
+    display: inline;
+  }
+  #nav_bottom>ul>li>a{
+    text-decoration: none;
+    color: #797979;
+  }
+  #copyright{
+    margin-top: 20px;
+  }
+  #twotwo{
+    width: 30%;
+  }
+  #upicon{
+    width: 40px;
+    height: 40px;
+  }
+
+}
+
+
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*                         PC 版                              */
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 981px){
+  #header .container1{
+    max-height: 178px;
+  }
+  #banner,.container1{
+    max-width: 1170px;
+  }
+  #logo{
+    margin: 0px;
+    width: 40%;
+    float: left;
+  }
+  #logo img{
+    max-width: 291px;
+    max-height: 175px;
+    margin-top: 25px;
+  }
+  #nav_top02{
+    width: 60%;
+    float: right;
+  }
+  #nav_top02 a:hover{
+    color: #E64066;  /*滑鼠滑過字的顏色-粉紅色*/
+  }
+  #nav>ul>li>a:hover{
+    background-color: #E64066;  /*滑鼠滑過背景顏色-粉紅色*/
+  }
+  #nav_bottom>ul>li>a:hover{
+    color: #E64066;  /*滑鼠滑過字的顏色-粉紅色*/
+  }
+  #nav{
+    width: 60%;
+    margin-top: 90px;
+    float: left;
+    clear: none;
+  }
+  h4{
+    background-size: 100%;
+  }
+  .bigbox{
+    width: 33.333333%;
+    float: left;
+  }
+  #copyright,#nav_bottom{
+    margin-right: 0px;
+    text-align: center;
+  }
+  #footer{
+    background-size: 100% 35%;
+  }
+  #twotwo{
+    width: 20%;
+  }
+  #upicon{
+    right: 20px;
+    bottom: 350px;
+  }
+
+}
